@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 980" role="img" aria-label="Abstract open world role playing cover">
+  <defs>
+    <linearGradient id="a" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#051713"/><stop offset=".52" stop-color="#0b0e13"/><stop offset="1" stop-color="#1f1730"/></linearGradient>
+    <radialGradient id="b" cx=".5" cy=".25" r=".45"><stop stop-color="#56d59a" stop-opacity=".7"/><stop offset="1" stop-color="#56d59a" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="720" height="980" fill="url(#a)"/>
+  <rect width="720" height="980" fill="url(#b)"/>
+  <circle cx="360" cy="246" r="110" fill="#d8b46a" opacity=".72"/>
+  <path d="M0 730 C170 590 262 678 390 536 C508 405 580 510 720 400 L720 980 L0 980 Z" fill="#0e1720"/>
+  <path d="M0 805 C160 688 260 770 390 640 C512 520 612 612 720 532 L720 980 L0 980 Z" fill="#06080d"/>
+  <g stroke="#fff" stroke-opacity=".2" fill="none">
+    <path d="M360 110 V810"/>
+    <path d="M210 292 C310 250 420 250 510 292"/>
+    <path d="M176 348 C294 304 454 304 548 348"/>
+  </g>
+  <path d="M305 602 L360 470 L418 602 Z" fill="#fff" opacity=".18"/>
+  <path d="M264 692 L360 500 L460 692 Z" fill="#56d59a" opacity=".34"/>
+</svg>

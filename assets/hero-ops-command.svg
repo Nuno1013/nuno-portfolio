@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1100" role="img" aria-label="Cinematic game operations command room">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07111e"/>
+      <stop offset=".45" stop-color="#0b0d13"/>
+      <stop offset="1" stop-color="#18080d"/>
+    </linearGradient>
+    <radialGradient id="blue" cx=".72" cy=".34" r=".42">
+      <stop offset="0" stop-color="#4da3ff" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#4da3ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="red" cx=".88" cy=".68" r=".38">
+      <stop offset="0" stop-color="#ff4f64" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#ff4f64" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1800" height="1100" fill="url(#bg)"/>
+  <rect width="1800" height="1100" fill="url(#blue)"/>
+  <rect width="1800" height="1100" fill="url(#red)"/>
+  <g opacity=".22">
+    <path d="M0 760 C380 670 610 840 1010 735 C1280 664 1520 628 1800 680 L1800 1100 L0 1100 Z" fill="#111823"/>
+    <path d="M0 865 C480 775 740 950 1120 830 C1440 735 1640 790 1800 750 L1800 1100 L0 1100 Z" fill="#07090d"/>
+  </g>
+  <g stroke="#ffffff" stroke-opacity=".12" stroke-width="2">
+    <path d="M1220 110 V620"/>
+    <path d="M1340 80 V660"/>
+    <path d="M1460 150 V700"/>
+    <path d="M1160 540 H1710"/>
+    <path d="M1110 430 H1660"/>
+    <path d="M1180 315 H1725"/>
+  </g>
+  <g filter="url(#glow)">
+    <rect x="1160" y="205" width="490" height="250" rx="8" fill="#0b1420" stroke="#79b8ff" stroke-opacity=".42"/>
+    <path d="M1195 395 C1260 340 1305 356 1362 306 C1424 253 1486 290 1532 242 C1572 201 1603 232 1620 220" fill="none" stroke="#4da3ff" stroke-width="5"/>
+    <path d="M1195 338 C1272 364 1325 320 1395 356 C1460 389 1534 346 1620 374" fill="none" stroke="#ff4f64" stroke-width="4" opacity=".86"/>
+    <rect x="1215" y="235" width="90" height="18" fill="#d8b46a" opacity=".82"/>
+    <rect x="1215" y="265" width="190" height="10" fill="#ffffff" opacity=".28"/>
+    <rect x="1215" y="285" width="150" height="10" fill="#ffffff" opacity=".18"/>
+  </g>
+  <g opacity=".82">
+    <path d="M760 710 L1010 610 L1255 720 L1035 860 Z" fill="#151923" stroke="#ffffff" stroke-opacity=".12"/>
+    <path d="M965 615 L1110 688 L1008 728 L865 654 Z" fill="#1b2635"/>
+    <path d="M975 635 L1072 688 L1007 710 L910 660 Z" fill="#4da3ff" opacity=".28"/>
+  </g>
+  <g opacity=".55" stroke="#d8b46a" stroke-width="2">
+    <path d="M930 118 L1780 118"/>
+    <path d="M1000 164 L1690 164"/>
+    <path d="M1120 830 L1680 1010"/>
+  </g>
+  <g opacity=".72">
+    <circle cx="1515" cy="610" r="72" fill="none" stroke="#ffffff" stroke-opacity=".22" stroke-width="3"/>
+    <circle cx="1515" cy="610" r="38" fill="none" stroke="#4da3ff" stroke-opacity=".7" stroke-width="5"/>
+    <path d="M1515 538 V682 M1443 610 H1587" stroke="#ffffff" stroke-opacity=".28" stroke-width="2"/>
+  </g>
+</svg>
